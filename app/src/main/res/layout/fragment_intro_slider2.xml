@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroSlider2Fragment">
+
+    <ImageView
+        android:id="@+id/ivSlider2"
+        android:layout_width="wrap_content"
+        android:layout_height="289dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="369dp"
+        android:src="@drawable/slider2" />
+
+    <TextView
+        android:id="@+id/tvIntroSlider2"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="215dp"
+        android:fontFamily="@font/nunito_sans_regular"
+        android:text="@string/introSlider2_text"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSliderNumber2"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="118dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="@string/sliderNumber2"
+        android:textSize="25sp" />
+
+</RelativeLayout>
